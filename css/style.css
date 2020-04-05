@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+:root {
+	--pink-color: hsl(322, 100%, 66%);
+	--very-pale-cyan: hsl(193, 100%, 96%);
+	--very-dark-cyan: hsl(192, 100%, 9%);
+	--grayish-blue: hsl(208, 11%, 55%);
+	--poppins-font: 'Poppins', sans-serif;
+	--open-sans-font: 'Open Sans', sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	line-height: 1.6px;
+	color: #000;
+	background: var(--very-pale-cyan);
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+
+/* Utility Classes */
+.container {
+	max-width: 1400px;
+	padding: 2rem 2rem;
+	margin: auto;
+	overflow: hidden;
+}
+
+.logo-primary {
+	width: 195px;
+	height: 100%;
+}
+
+.btn-primary {
+	display: inline-block;
+	padding: 1.4rem 2.2rem;
+	background-color: #fff;
+	width: 160px;
+	height: 40px;
+	text-align: center;
+	color: #000;
+	border-radius: 25px;
+	box-shadow: 2px 3px 12px 0px #ccc;
+	font-family: var(--open-sans-font);
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: -0.1px;
+}
+
+
+
+/* Nav Section */
+.main-header {
+	width: 100%;
+	height: 700px;
+	background: url('../images/bg-hero-desktop.svg') no-repeat center center/cover;
+}
+
+
+.main-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
